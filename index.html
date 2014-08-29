@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>统计结果</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src = "js/jquery.min.js"></script>
+	<script type="text/javascript" src = "js/calculate.js"></script>
+</head>
+<body>
+	<h1>传说中的规划求解</h1>
+	<div id = "wrapper">
+		<div id	= "left">
+			<textarea cols="30" rows="32" id="numbers" placeholder = "请输入您希望统计的数据"></textarea>
+		</div>
+		<div id = "right">
+			<input type = "text" id = "answer" maxlength = "20"/><span class = "tips">(请输入您希望得到的结果)</span><br>
+			<input type = "text" id = "limit" maxlength = '2'/><span class = "tips">(请输入您对数字个数的限制)</span><br>
+			<input type = "button" value = "计算" id = "calculate"/><span class = "input-tips tips"></span>
+			<div id = "all" class ="scores">
+				<span class = "tips">下列组合能够得到您想要的结果:</span><br>
+			</div>
+			<div id = "equal-score" class ="scores">
+				<span class = "tips">下列数字与您输入的预期结果相等:</span><br>
+			</div>
+		</div>
+	</div>
+	<p id = "footer">© Copyright (c) 2014 | Powered by 袁梓民</p>
+</body>
+</html>

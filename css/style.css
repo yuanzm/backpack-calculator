@@ -1,0 +1,64 @@
+body {
+	font-family: "Microsoft YaHei";
+}
+h1 {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 24px;
+}
+#wrapper {
+	width: 980px;
+	height: 490px;
+	border: solid 1px gray;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+}
+#left {
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	height: 100%;
+}
+#numbers {
+	width: 90%;
+	height: 95%;
+	margin: 10px;
+}
+#right {
+	width: 70%;
+	float: left;
+}
+#answer,#limit {
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#calculate {
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 100px;
+	height: 30px;
+}
+.scores {
+	width: 90%;
+	height: 150px;
+	border: solid 1px gray;
+	margin-top: 20px;
+	margin-left: 30px;
+	overflow: auto;
+}
+.tips {
+	font-size: 14px;
+	margin-left: 5px;
+}
+.ans {
+	margin-left: 5px;
+}
+#footer {
+	text-align: center;
+}
+
+.input-tips {
+	color: red;
+	margin-left: 10px;
+}
