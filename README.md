@@ -1,7 +1,4 @@
-backpack-calculator
-===================
-
-##A calculator based on Knapsack algorithm
+#A calculator based on Knapsack algorithm
 
 #How to use
 
